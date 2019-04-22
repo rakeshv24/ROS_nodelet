@@ -1,0 +1,5 @@
+nodelet_webcam
+/home/rakesh/flytbase/nodelet_project/devel/.private/nodelet_webcam/lib/libnodelet_webcam.so /home/rakesh/flytbase/nodelet_project/devel/lib/libnodelet_webcam.so
+/home/rakesh/flytbase/nodelet_project/devel/.private/nodelet_webcam/lib/pkgconfig/nodelet_webcam.pc /home/rakesh/flytbase/nodelet_project/devel/lib/pkgconfig/nodelet_webcam.pc
+/home/rakesh/flytbase/nodelet_project/devel/.private/nodelet_webcam/share/nodelet_webcam/cmake/nodelet_webcamConfig.cmake /home/rakesh/flytbase/nodelet_project/devel/share/nodelet_webcam/cmake/nodelet_webcamConfig.cmake
+/home/rakesh/flytbase/nodelet_project/devel/.private/nodelet_webcam/share/nodelet_webcam/cmake/nodelet_webcamConfig-version.cmake /home/rakesh/flytbase/nodelet_project/devel/share/nodelet_webcam/cmake/nodelet_webcamConfig-version.cmake

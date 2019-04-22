@@ -1,0 +1,1 @@
+/home/rakesh/flytbase/nodelet_project/devel/.private/nodelet_webcam/lib/pkgconfig/nodelet_webcam.pc
