@@ -1,6 +1,6 @@
 # ROS_nodelet
 
-## Nodelets are ROS nodes designed to run multiple algorithms within the same process in an efficient manner. Each process is executed as threads. Threaded nodes communicate efficiently without overloading the network by using zero copy transport between two nodes.
+Nodelets are ROS nodes designed to run multiple algorithms within the same process in an efficient manner. Each process is executed as threads. Threaded nodes communicate efficiently without overloading the network by using zero copy transport between two nodes.
 
 ## 1. Installation of cv_camera package
 
