@@ -1,8 +1,0 @@
-prefix=/home/rakesh/flytbase/nodelet_project/install
-
-Name: nodelet_webcam
-Description: Description of nodelet_webcam
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/rakesh/flytbase/nodelet_project/install/lib -lnodelet_webcam
-Requires: nodelet roscpp std_msgs

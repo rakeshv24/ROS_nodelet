@@ -1,0 +1,8 @@
+prefix=/home/rakesh/flytbase/Git Repos/ROS_nodelet/nodelet_project/devel/.private/nodelet_webcam
+
+Name: nodelet_webcam
+Description: Description of nodelet_webcam
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/rakesh/flytbase/Git Repos/ROS_nodelet/nodelet_project/devel/.private/nodelet_webcam/lib -lnodelet_webcam
+Requires: nodelet roscpp std_msgs
