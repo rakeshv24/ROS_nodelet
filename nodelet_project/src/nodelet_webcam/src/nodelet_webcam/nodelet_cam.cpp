@@ -18,20 +18,15 @@ namespace nodelet_sample_ns
 		{
 			ros::NodeHandle& _nh = getPrivateNodeHandle();
 			NODELET_DEBUG("Initialized the Nodelet");
-			//cv::namedWindow("output");
-			//cv::startWindowThread();
 			image_transport::ImageTransport it(_nh);
 			pub = it.advertise("camera/image", 1);
 			sub = it.subscribe("/cv_camera_node/image_raw", 1, &webcam::callback, this);
-			//cv::destroyWindow("output");
 		}
 		void callback(const sensor_msgs::ImageConstPtr& msg)
 		{
 			try
 			{
 				cv::Mat image = cv_bridge::toCvShare(msg, "bgr8")->image;
-				//cv::imshow("output", image);
-				//cv::waitKey(3000);
 				sensor_msgs::ImagePtr output = cv_bridge::CvImage(std_msgs::Header(), "bgr8", image).toImageMsg();
 				pub.publish(output);				
 			}
