@@ -4,4 +4,9 @@
 			To republish image message
 		</description>
 	</class>
+	<class name="nodelet_webcam/webcam1" type="nodelet_sample_ns1::webcam1" base_class_type="nodelet::Nodelet">
+		<description>
+			To republish image message
+		</description>
+	</class>
 </library>

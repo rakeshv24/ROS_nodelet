@@ -24,7 +24,7 @@ include_directories(
   ${OpenCV_INCLUDE_DIRS}
 )
 
-add_library(nodelet_webcam src/nodelet_webcam/nodelet_cam.cpp)
+add_library(nodelet_webcam src/nodelet_webcam/nodelet_cam.cpp src/nodelet_webcam/nodelet_cam1.cpp)
 
 target_link_libraries(nodelet_webcam
    ${catkin_LIBRARIES}
@@ -37,6 +37,6 @@ install(FILES
    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
  )
 
-if(catkin_EXPORTED_LIBRARIES)
-  add_dependencies(nodelet_webcam ${catkin_EXPORTED_LIBRARIES})
-endif()
+#if(catkin_EXPORTED_LIBRARIES)
+#  add_dependencies(nodelet_webcam ${catkin_EXPORTED_LIBRARIES})
+#endif()
