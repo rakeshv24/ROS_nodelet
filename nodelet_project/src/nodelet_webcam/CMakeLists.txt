@@ -12,14 +12,14 @@ find_package(catkin REQUIRED COMPONENTS
 find_package(OpenCV REQUIRED)
 
 catkin_package(
-#  INCLUDE_DIRS include
-  LIBRARIES ${PROJECT_NAME}
+  #INCLUDE_DIRS include
+  LIBRARIES nodelet_webcam
   CATKIN_DEPENDS nodelet roscpp std_msgs
-#  DEPENDS system_lib
+  #DEPENDS system_lib
 )
 
 include_directories(
-# include
+ #include
   ${catkin_INCLUDE_DIRS}
   ${OpenCV_INCLUDE_DIRS}
 )
@@ -29,6 +29,10 @@ add_library(nodelet_webcam src/nodelet_webcam/nodelet_cam.cpp src/nodelet_webcam
 target_link_libraries(nodelet_webcam
    ${catkin_LIBRARIES}
    ${OpenCV_LIBRARIES}
+ )
+
+install(TARGETS nodelet_webcam
+   DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
  )
 
 install(FILES
