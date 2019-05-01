@@ -12,6 +12,6 @@ Nodelets are ROS nodes designed to run multiple algorithms within the same proce
 
 `cd ~/{PATH_to_repo}`
 
-`source devel/setup.bash`
+`source install/setup.bash`
 
 `roslaunch nodelet_webcam nodelet_samp.launch`
