@@ -1,12 +1,12 @@
 <library path="lib/libnodelet_webcam">
-	<class name="nodelet_webcam/webcam" type="nodelet_sample_ns::webcam" base_class_type="nodelet::Nodelet">
+	<class name="nodelet_webcam/pub_webcam" type="nodelet_sample_ns::pub_webcam" base_class_type="nodelet::Nodelet">
 		<description>
-			To republish image message
+			Publisher
 		</description>
 	</class>
-	<class name="nodelet_webcam/webcam1" type="nodelet_sample_ns1::webcam1" base_class_type="nodelet::Nodelet">
+	<class name="nodelet_webcam/sub_webcam" type="nodelet_sample_ns::sub_webcam" base_class_type="nodelet::Nodelet">
 		<description>
-			To republish image message
+			Subscriber
 		</description>
 	</class>
 </library>

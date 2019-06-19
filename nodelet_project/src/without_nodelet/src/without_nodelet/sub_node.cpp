@@ -1,5 +1,3 @@
-#include <pluginlib/class_list_macros.h>
-#include <nodelet/nodelet.h>
 #include <ros/ros.h>
 #include <stdio.h>
 #include <std_msgs/String.h>
@@ -11,18 +9,19 @@
 //image_transport::Publisher pub1;
 image_transport::Subscriber sub1;
 
-namespace nodelet_sample_ns
+class sub_webcam
 {
-	class sub_webcam : public nodelet::Nodelet
-	{
-		virtual void onInit()
+	public:
+		sub_webcam()
 		{
-			ros::NodeHandle& _nh = getPrivateNodeHandle();
-			NODELET_DEBUG("Initialized the Nodelet");
-			image_transport::ImageTransport it(_nh);
+			ros::NodeHandle n;
+			image_transport::ImageTransport it(n);
 			//pub1 = it.advertise("camera/image", 1);
-			sub1 = it.subscribe("/nodelet2/camera/image", 1, &sub_webcam::callback, this);
+			sub1 = it.subscribe("/camera/image", 1, &sub_webcam::callback, this);
+			
 		}
+	private:
+
 		void callback(const sensor_msgs::ImageConstPtr& msg)
 		{
 			try
@@ -38,7 +37,13 @@ namespace nodelet_sample_ns
 				ROS_ERROR("Could not convert from '%s' to 'bgr8'.", msg->encoding.c_str());
 			}
 		}
-  };
+};
+int main(int argc, char** argv) 
+{
+  ros::init(argc, argv, "subscriber_node");
+  sub_webcam obj;
+  ros::spin();
+  ros::waitForShutdown();
+  return 0;
 }
 
-PLUGINLIB_EXPORT_CLASS(nodelet_sample_ns::sub_webcam, nodelet::Nodelet)
