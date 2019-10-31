@@ -1,0 +1,5 @@
+nodelet_webcam
+/home/rakesh/Projects/ROS_nodelet/devel/.private/nodelet_webcam/lib/libnodelet_webcam.so /home/rakesh/Projects/ROS_nodelet/devel/lib/libnodelet_webcam.so
+/home/rakesh/Projects/ROS_nodelet/devel/.private/nodelet_webcam/lib/pkgconfig/nodelet_webcam.pc /home/rakesh/Projects/ROS_nodelet/devel/lib/pkgconfig/nodelet_webcam.pc
+/home/rakesh/Projects/ROS_nodelet/devel/.private/nodelet_webcam/share/nodelet_webcam/cmake/nodelet_webcamConfig.cmake /home/rakesh/Projects/ROS_nodelet/devel/share/nodelet_webcam/cmake/nodelet_webcamConfig.cmake
+/home/rakesh/Projects/ROS_nodelet/devel/.private/nodelet_webcam/share/nodelet_webcam/cmake/nodelet_webcamConfig-version.cmake /home/rakesh/Projects/ROS_nodelet/devel/share/nodelet_webcam/cmake/nodelet_webcamConfig-version.cmake

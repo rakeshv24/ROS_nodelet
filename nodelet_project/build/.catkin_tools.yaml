@@ -1,6 +1,0 @@
-devel_space: /home/rakesh/Projects/ROS_nodelet/nodelet_project/devel
-install: true
-install_space: /home/rakesh/Projects/ROS_nodelet/nodelet_project/install
-profile: default
-source_space: /home/rakesh/Projects/ROS_nodelet/nodelet_project/src
-workspace: /home/rakesh/Projects/ROS_nodelet/nodelet_project

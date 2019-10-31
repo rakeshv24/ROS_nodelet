@@ -1,8 +1,0 @@
-prefix=/home/rakesh/Projects/ROS_nodelet/nodelet_project/devel/.private/without_nodelet
-
-Name: without_nodelet
-Description: Description of without_nodelet
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/rakesh/Projects/ROS_nodelet/nodelet_project/devel/.private/without_nodelet/lib 
-Requires: roscpp std_msgs
