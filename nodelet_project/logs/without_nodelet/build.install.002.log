@@ -1,0 +1,44 @@
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[ 50%] Built target webcam_node1
+[100%] Built target webcam_node2
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/rakesh/Projects/ROS_nodelet/nodelet_project/install/_setup_util.py
+-- Up-to-date: /home/rakesh/Projects/ROS_nodelet/nodelet_project/install/env.sh
+-- Up-to-date: /home/rakesh/Projects/ROS_nodelet/nodelet_project/install/setup.bash
+-- Up-to-date: /home/rakesh/Projects/ROS_nodelet/nodelet_project/install/setup.sh
+-- Up-to-date: /home/rakesh/Projects/ROS_nodelet/nodelet_project/install/setup.zsh
+-- Up-to-date: /home/rakesh/Projects/ROS_nodelet/nodelet_project/install/.rosinstall
+-- Up-to-date: /home/rakesh/Projects/ROS_nodelet/nodelet_project/install/lib/pkgconfig/without_nodelet.pc
+-- Up-to-date: /home/rakesh/Projects/ROS_nodelet/nodelet_project/install/share/without_nodelet/cmake/without_nodeletConfig.cmake
+-- Up-to-date: /home/rakesh/Projects/ROS_nodelet/nodelet_project/install/share/without_nodelet/cmake/without_nodeletConfig-version.cmake
+-- Up-to-date: /home/rakesh/Projects/ROS_nodelet/nodelet_project/install/share/without_nodelet/package.xml
+-- Installing: /home/rakesh/Projects/ROS_nodelet/nodelet_project/install/lib/without_nodelet/webcam_node1
+-- Set runtime path of "/home/rakesh/Projects/ROS_nodelet/nodelet_project/install/lib/without_nodelet/webcam_node1" to ""
+-- Installing: /home/rakesh/Projects/ROS_nodelet/nodelet_project/install/lib/without_nodelet/webcam_node2
+-- Set runtime path of "/home/rakesh/Projects/ROS_nodelet/nodelet_project/install/lib/without_nodelet/webcam_node2" to ""
+-- Up-to-date: /home/rakesh/Projects/ROS_nodelet/nodelet_project/install/share/without_nodelet/just_nodes.launch

@@ -23,21 +23,21 @@ include_directories(
   ${OpenCV_INCLUDE_DIRS}
 )
 
-add_executable(sub src/without_nodelet/sub_node.cpp)
-add_dependencies(sub ${catkin_EXPORTED_TARGETS})
-target_link_libraries(sub
+add_executable(webcam_node1 src/without_nodelet/webcam_node1.cpp)
+add_dependencies(webcam_node1 ${catkin_EXPORTED_TARGETS})
+target_link_libraries(webcam_node1
    ${catkin_LIBRARIES}
    ${OpenCV_LIBRARIES}
  )
 
-add_executable(pub src/without_nodelet/pub_node.cpp)
-add_dependencies(pub ${catkin_EXPORTED_TARGETS})
-target_link_libraries(pub
+add_executable(webcam_node2 src/without_nodelet/webcam_node2.cpp)
+add_dependencies(webcam_node2 ${catkin_EXPORTED_TARGETS})
+target_link_libraries(webcam_node2
    ${catkin_LIBRARIES}
    ${OpenCV_LIBRARIES}
  )
 
-install(TARGETS sub pub
+install(TARGETS webcam_node1 webcam_node2
     ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
     LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
     RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
